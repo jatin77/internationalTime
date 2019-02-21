@@ -1,0 +1,40 @@
+body{
+  padding:0;
+  margin:0;
+  font-family: comic sans ms !important;
+  background:#1a1a1a !important;
+}
+.box{
+  position: relative;
+  text-align: center;
+  width:200px;
+  height:150px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.box img{
+  width:100%;
+  height:100%;
+  
+}
+.content{
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  font-size:20px;
+  background:rgba(0,0,0,0.7);
+  text-align: center;
+  color:#f8f8ff;
+}
+.content p{
+  margin:0;
+  
+}
+.placeName{
+  color:#f8f8ff;
+  
+}
+.flag{
+  margin:15px 0 !important;
+}

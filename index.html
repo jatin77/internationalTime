@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>digital clock</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+  <div class="container">
+
+    <div class="row">
+      <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 flag">
+        <div class="box">
+        <img src="america.png"  alt="">
+        <div class="content">
+        <p id="America/New_York" class="city"></p>
+        
+        </div>
+        <p class="placeName"><small>America/NewYork</small></p>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 flag">
+          <div class="box">
+          <img src="russia.png"  alt="">
+          <div class="content">
+          <p id="Europe/Moscow" class="city"></p>
+          
+          </div>
+          <p class="placeName"><small>Europe/Moscow</small></p>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 flag">
+            <div class="box">
+            <img src="china.png"  alt="">
+            <div class="content">
+            <p id="Asia/Shanghai" class="city"></p>
+            
+            </div>
+            <p class="placeName"><small>Asia/Shanghai</small></p>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 flag">
+               <div class="box">
+              <img src="uk.png"  alt="">
+              <div class="content">
+              <p id="Europe/London" class="city"></p>
+              
+              </div>
+              <p class="placeName"><small>Europe/London</small></p>
+              </div> 
+            </div>
+    </div>  
+
+
+
+    <div class="row">
+        <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 flag">
+          <div class="box">
+          <img src="germany.png"  alt="">
+          <div class="content">
+          <p id="Europe/Berlin" class="city"></p>
+          
+          </div>
+          <p class="placeName"><small>Europe/Berlin</small></p>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 flag">
+            <div class="box">
+            <img src="france.png"  alt="">
+            <div class="content">
+            <p id="Europe/Paris" class="city"></p>
+            
+            </div>
+            <p class="placeName"><small>Europe/Paris</small></p>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 flag">
+              <div class="box">
+              <img src="japan.png"  alt="">
+              <div class="content">
+              <p id="Asia/Tokyo" class="city"></p>
+              
+              </div>
+              <p class="placeName"><small>Asia/Tokyo</small></p>
+              </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 flag">
+                 <div class="box">
+                <img src="israel.png"  alt="">
+                <div class="content">
+                <p id="Asia/Jerusalem" class="city"></p>
+                
+                </div>
+                <p class="placeName"><small>Asia/Jerusalem</small></p>
+                </div> 
+              </div>
+      </div>  
+
+      
+    <div class="row">
+        <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 flag">
+          <div class="box">
+          <img src="soudiArabia.jpg"  alt="">
+          <div class="content">
+          <p id="Asia/Riyadh" class="city"></p>
+          
+          </div>
+          <p class="placeName"><small>Asia/Riyadh</small></p>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 flag">
+            <div class="box">
+            <img src="uae.png"  alt="">
+            <div class="content">
+            <p id="Asia/Dubai" class="city"></p>
+            
+            </div>
+            <p class="placeName"><small>Asia/Dubai</small></p>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 flag">
+              <div class="box">
+              <img src="netherlands.png"  alt="">
+              <div class="content">
+              <p id="Europe/Amsterdam" class="city"></p>
+              
+              </div>
+              <p class="placeName"><small>Europe/Amsterdam</small></p>
+              </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 flag">
+                 <div class="box">
+                <img src="italy.png"  alt="">
+                <div class="content">
+                <p id="Europe/Rome" class="city"></p>
+                
+                </div>
+                <p class="placeName"><small>Europe/Rome</small></p>
+                </div> 
+              </div>
+      </div>  
+
+
+      <div class="row">
+          <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 flag">
+            <div class="box">
+            <img src="australia.png"  alt="">
+            <div class="content">
+            <p id="Australia/Sydney" class="city"></p>
+            
+            </div>
+            <p class="placeName"><small>Australia/Sydney</small></p>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 flag">
+              <div class="box">
+              <img src="india.png"  alt="">
+              <div class="content">
+              <p id="Asia/Kolkata" class="city"></p>
+              
+              </div>
+              <p class="placeName"><small>Asia/Kolkata</small></p>
+              </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 flag">
+                <div class="box">
+                <img src="northkorea.jpg"  alt="">
+                <div class="content">
+                <p id="Asia/Pyongyang" class="city"></p>
+                
+                </div>
+                <p class="placeName"><small>Asia/Pyongyang</small></p>
+                </div>
+              </div>
+              <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 flag">
+                   <div class="box">
+                  <img src="bhutan.png"  alt="">
+                  <div class="content">
+                  <p id="Asia/Thimphu" class="city"></p>
+                  
+                  </div>
+                  <p class="placeName"><small>Asia/Thimphu</small></p>
+                  </div> 
+                </div>
+        </div>  
+
+
+</div>
+
+</body>
+
+  <script>
+ 
+  
+  //---------------------------------------------America/New_York
+  function America(){
+    var date=new Date().toLocaleString("en-US", {timeZone: "America/New_York"});
+    document.getElementById("America/New_York").innerHTML=date
+  }
+  America();
+  setInterval(America,1000)
+  //--------------------------------------------Europe/Moscow
+  function Russia(){
+    var date=new Date().toLocaleString("ba-RU", {timeZone: "Europe/Moscow"});
+    document.getElementById("Europe/Moscow").innerHTML=date
+  }
+  Russia();
+  setInterval(Russia,1000)
+  //----------------------------------------------Asia/Shanghai
+  function china(){
+    var date=new Date().toLocaleString("bo-CN", {timeZone: "Asia/Shanghai"});
+    document.getElementById("Asia/Shanghai").innerHTML=date
+  }
+  china();
+  setInterval(china,1000)
+  //-----------------------------------------------Europe/London
+  function london(){
+    var date=new Date().toLocaleString("cy-GB", {timeZone: "Europe/London"});
+    document.getElementById("Europe/London").innerHTML=date
+  }
+  london();
+  setInterval(london,1000)
+  //-----------------------------------------------Europe/Berlin
+  function germany(){
+    var date=new Date().toLocaleString("nl-BE", {timeZone: "Europe/Berlin"});
+    document.getElementById("Europe/Berlin").innerHTML=date
+  }
+  germany();
+  setInterval(germany,1000)
+  //------------------------------------------------Europe/Paris
+  function france(){
+    var date=new Date().toLocaleString("oc-FR", {timeZone: "Europe/Paris"});
+    document.getElementById("Europe/Paris").innerHTML=date
+  }
+  france();
+  setInterval(france,1000)
+  //-------------------------------------------------Asia/Tokyo
+  function japan(){
+    var date=new Date().toLocaleString("ja-JP", {timeZone: "Asia/Tokyo"});
+    document.getElementById("Asia/Tokyo").innerHTML=date
+  }
+  japan();
+  setInterval(japan,1000)
+  //-------------------------------------------------Asia/Jerusalem
+  function israel(){
+    var date=new Date().toLocaleString("he-IL", {timeZone: "Asia/Jerusalem"});
+    document.getElementById("Asia/Jerusalem").innerHTML=date
+  }
+  israel();
+  setInterval(israel,1000)
+  //---------------------------------------------------Asia/Riyhad
+  function soudiArabia(){
+    var date=new Date().toLocaleString("en-US", {timeZone: "Asia/Riyadh"});
+    document.getElementById("Asia/Riyadh").innerHTML=date
+  }
+  soudiArabia();
+  setInterval(soudiArabia,1000)
+  //---------------------------------------------------Asia/Dubai
+  function dubai(){
+    var date=new Date().toLocaleString("en-US", {timeZone: "Asia/Dubai"});
+    document.getElementById("Asia/Dubai").innerHTML=date
+  }
+  dubai();
+  setInterval(dubai,1000)
+  //---------------------------------------------------Europe/Amsterdam
+  function netherlands(){
+    var date=new Date().toLocaleString("fy-NL", {timeZone: "Europe/Amsterdam"});
+    document.getElementById("Europe/Amsterdam").innerHTML=date
+  }
+  netherlands();
+  setInterval(netherlands,1000)
+  //------------------------------------------------------Europe/Rome
+  function italy(){
+    var date=new Date().toLocaleString("it-IT", {timeZone: "Europe/Rome"});
+    document.getElementById("Europe/Rome").innerHTML=date
+  }
+  italy();
+  setInterval(italy,1000)
+  function israel(){
+    var date=new Date().toLocaleString("he-IL", {timeZone: "Asia/Jerusalem"});
+    document.getElementById("Asia/Jerusalem").innerHTML=date
+  }
+  israel();
+  setInterval(israel,1000)
+  //---------------------------------------------------Australia/Sydney
+  function australia(){
+    var date=new Date().toLocaleString("en-AU", {timeZone: "Australia/Sydney"});
+    document.getElementById("Australia/Sydney").innerHTML=date
+  }
+  australia();
+  setInterval(australia,1000)
+  //---------------------------------------------------Asia/Kolkata
+  function india(){
+    var date=new Date().toLocaleString("en-US", {timeZone: "Asia/Kolkata"});
+    document.getElementById("Asia/Kolkata").innerHTML=date
+  }
+  india();
+  setInterval(india,1000)
+  //---------------------------------------------------Europe/Amsterdam
+  function northkorea(){
+    var date=new Date().toLocaleString("en-US", {timeZone: "Asia/Pyongyang"});
+    document.getElementById("Asia/Pyongyang").innerHTML=date
+  }
+  northkorea();
+  setInterval(northkorea,1000)
+  //------------------------------------------------------Europe/Rome
+  function bhutan(){
+    var date=new Date().toLocaleString("en-US", {timeZone: "Asia/Thimphu"});
+    document.getElementById("Asia/Thimphu").innerHTML=date
+  }
+  bhutan();
+  setInterval(italy,1000)
+  
+  </script>
+
+</html>
