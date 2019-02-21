@@ -4,6 +4,13 @@ body{
   font-family: comic sans ms !important;
   background:#1a1a1a !important;
 }
+h1{
+ 
+  padding:1em;
+  text-align:center;
+}
+
+
 .box{
   position: relative;
   text-align: center;
